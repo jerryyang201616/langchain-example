@@ -3,6 +3,9 @@
 pip install langserve
 pip install "langserve[all]"
 
+pip install "langserve[all]" langchain-openai python-dotenv
+
+
 verify: python -c "import langserve; print(langserve.__version__)"
 
 
